@@ -34,7 +34,7 @@ btnele.onclick = function(){
 
     }*/
     else {
-         processEle.textContent = `Hii ${textele.value}, Verifing your account`
+         processEle.textContent = `Hii ${textele.value}, Verifing your account.......`
          bgEle.classList.add("container2")
          errtextele.textContent = ""
          errpassele.textContent = textelefg
