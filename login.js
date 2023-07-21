@@ -12,17 +12,15 @@ let btnele = document.getElementById("btnId");
 })*/
 
 btnele.onclick = function(){
-    
-    //let textelefg = textele.value.length;
 
     if (textele.value === ""){
         errtextele.textContent = "*Required"
-        //processEle.textContent = "";
+        processEle.textContent = "";
     }
     else if (passele.value === "") {
            errpassele.textContent = "*Required"
            errtextele.textContent = ""
-           //processEle.textContent=""
+           processEle.textContent= ""
     }
     /*else if (textelefg <= 5){
         processEle.textContent = "Password is too short"
