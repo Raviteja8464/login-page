@@ -6,9 +6,7 @@ let processEle = document.getElementById("processId")
 let bgEle = document.getElementById("jscontainer")
 let btnele = document.getElementById("btnId");
 
-textele.addEventListener("blur",function(){
-    errtextele.textContent = "equired"
-})
+
 /*passele.addEventListener("blur",function(){
     errpassele.textContent = "equired"
 })*/
